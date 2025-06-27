@@ -14,6 +14,7 @@ import ComponentPreview from "@/components/component-preview"
 import StyleControls from "@/components/style-controls"
 import ExportOptions from "@/components/export-options"
 import { useToast } from "@/hooks/use-toast"
+import FreeTierNoticeDialogProps from "@/components/FreeTierNoticeDialogProps"
 
 export default function Home() {
   const [prompt, setPrompt] = useState("")
@@ -237,6 +238,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <FreeTierNoticeDialogProps />
     </div>
   )
 }
