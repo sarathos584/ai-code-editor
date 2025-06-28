@@ -8,7 +8,7 @@ const FreeTierNoticeDialogProps = () => {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent>
+      <DialogContent className="max-w-[90vw] w-full sm:max-w-lg p-4 sm:p-6 rounded-lg">
         <DialogHeader>
           <DialogTitle>⚠️ AI Free Tier Notice</DialogTitle>
           <DialogDescription>
